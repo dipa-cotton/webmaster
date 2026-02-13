@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Resource Hub</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<site-header></site-header>
+<h1 style="text-align: center; margin-top: 20px;">
+ Resource Hub
+  </h1>
+  <p style="text-align: center; margin: 20px 20px;">These are all of the documents listed on our site! Scroll to browse or use the search bar below to search for events and resources.</p>
+<input
+  type="text"
+  id="projectSearch"
+  placeholder="Search resources..."
+  class="search-bar"
+/>
+
+<div data-fillout-id="7wiTWzzEJTus" data-fillout-embed-type="slider" data-fillout-button-text="Indicate New Resources" data-fillout-button-color="#E4AB0A" data-fillout-button-size="small" data-fillout-button-float="bottom-right" data-fillout-slider-direction="right" data-fillout-inherit-parameters data-fillout-popup-size="medium"></div><script src="https://server.fillout.com/embed/v1/"></script>
+
+<h2 style="text-align: center; margin-top: 50px;">
+    Highlights
+  </h2>
+<div class="projects-grid">
+  <div class="project-card">
+    <img src="images/install.JPG" class="card-img-top" alt="Image of event">
+    <div class="project-info">
+    <h3 class="section-label">Jobees Installation of Officers</h3>
+    <p> Hosted by Job's Daughters of Clermont, Florida. Refreshments provided afterwards.
+      <br>
+      January 11th, 2026 - 2 p.m. </p>
+    <a href="events.html">View all events →</a>
+    </div>
+  </div>
+</div>
+<div class="projects-grid">
+  <div class="project-card">
+    <img src="images/signup2.png" class="card-img-top" alt="Image of event">
+    <div class="project-info">
+    <h3 class="section-label">Join the Jobees!</h3>
+    <p>Use the QR code on the flyer to sign up and join the team!</p>
+    <a href="events.html">View all events →</a>
+    </div>
+  </div>
+</div>
+<div class="projects-grid">
+  <div class="project-card">
+    <img src="images/form.jpg" class="card-img-top" alt="Image of event">
+    <div class="project-info">
+    <h3 class="section-label">Turn in Forms</h3>
+    <p>Sign the forms attached to join the team!</p>
+    <a href="events.html">View all events →</a>
+    </div>
+  </div>
+</div>
+<div class="projects-grid">
+  <div class="project-card">
+    <div class="project-info">
+    <h3>FIRST resources</h3>
+    <p> Links to learn more about FIRST and their programs.</p>
+    <a href="https://www.firstinspires.org/" target="_blank" rel="noopener">Learn more about FIRST →</a>
+    <a href="https://www.firstinspires.org/programs/frc/" target="_blank" rel="noopener">Learn more about the FRC →</a>
+    <a href="https://www.firstinspires.org/programs/ftc/" target="_blank" rel="noopener">Learn more about the FTC →</a>
+    </div>
+  </div>
+</div>
+<site-footer></site-footer>
+<script src="animation.js"></script>
+<script src="header.js"></script>
+     <script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const navLinks = document.querySelector(".nav-links");
+
+  menuToggle.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+  });
+</script>
+<script>
+  const searchInput = document.getElementById("projectSearch");
+  const projectCards = document.querySelectorAll(".project-card");
+
+  searchInput.addEventListener("input", function () {
+    const query = searchInput.value.toLowerCase();
+
+    projectCards.forEach(function (card) {
+      const text = card.textContent.toLowerCase();
+
+      if (text.includes(query)) {
+        card.style.display = "";
+      } else {
+        card.style.display = "none";
+      }
+    });
+  });
+</script>
+<script src="footer.js"></script>
+</body>
