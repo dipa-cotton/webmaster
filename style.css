@@ -141,7 +141,7 @@ a:hover {
 .category h2 {
   font-family: 'Montserrat', sans-serif;
   color: rgb(0, 0, 0);
-  font-size: 1.5rem;
+  font-size: .3rem;
   margin-bottom: 10px;
   border-bottom: 2px solid #c4ffb5;
   padding-bottom: 5px;
@@ -346,6 +346,41 @@ a:hover {
   color: #95d583;
 }
 
+.event-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+  font-size: 1rem;
+}
+.event-section a {
+  color: #000000;
+  font-weight: 700;
+}
+
+.event-section a:hover {
+  text-decoration: underline;
+}
+
+.event1-button {
+  background-color: #c4ffb5;
+  border: 5px solid #b2fa9f;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+ .event1-button a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.event1-button a:hover {
+  text-decoration: underline;
+}
+
+
 h1 {
   margin: 20px;
   font-size: clamp(52px, 10vw, 120px);
@@ -355,7 +390,7 @@ h1 {
 }
 h2 {
   margin: 20px;
-  font-size: clamp(42px, 8vw, 60px);
+  font-size: clamp(30px, 8vw, 15px);
   font-weight: 900;
   /* margin-bottom: 20px; */
 }

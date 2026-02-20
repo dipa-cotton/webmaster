@@ -9,10 +9,10 @@ class SiteHeader extends HTMLElement {
     <div class="nav-left">
     <nav class="navbar">
       <a href="index.html">
-        <img src="images/tiny.png" alt="Jobees Robotics Logo" class="logo">
+        <img src="images/logorl.png" alt="Jobees Robotics Logo" class="logo">
       </a>
     </div>
-    <h2 class="site-title" font size= style="margin: 10px;">Arbor Lakes</h2>
+    <h2 class="site-title" style="margin: 10px; ">Arbor Lakes</h2>
 
     <ul class="nav-links" id="nav-links">
       <li><a href="index.html">Home</a></li>

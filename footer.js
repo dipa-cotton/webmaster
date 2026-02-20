@@ -21,7 +21,7 @@ class SiteFooter extends HTMLElement {
       <p>© 2026 Arbor Lakes</p>
     </div>
     <a href="index.html">
-        <img src="images/smal.png" alt="Jobees Robotics Logo" class="logo">
+        <img src="images/logorl.png" alt="Arbor Lakes Logo" class="logo">
       </a>
   </div>
 </footer>
