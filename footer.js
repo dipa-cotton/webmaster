@@ -5,7 +5,7 @@ class SiteFooter extends HTMLElement {
   <div class="footer-sections">
     <div class="footer-section">
       <h4>Quick Links</h4>
-         <ul>
+      <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="events.html">Events</a></li>
       <li><a href="about.html">Who We Are</a></li>
@@ -21,8 +21,8 @@ class SiteFooter extends HTMLElement {
       <p>© 2026 Arbor Lakes</p>
     </div>
     <a href="index.html">
-        <img src="images/logorl.png" alt="Arbor Lakes Logo" class="logo">
-      </a>
+      <img src="images/logorl.png" alt="Arbor Lakes Logo" class="logo">
+    </a>
   </div>
 </footer>
     `;
@@ -30,3 +30,15 @@ class SiteFooter extends HTMLElement {
 }
 
 customElements.define("site-footer", SiteFooter);
+
+
+
+
+// <div class="footer-section">
+//       <h4>Quick Links</h4>
+//       <a href="index.html">Home</a>
+//       <a href="events.html">Events</a>
+//       <a href="about.html">Who We Are</a>
+//       <a href="resource.html">Resource Hub</a>
+//       <a href="reference.html">Reference Page</a>
+//     </div>

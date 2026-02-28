@@ -5,13 +5,9 @@ class SiteHeader extends HTMLElement {
   <nav class="navbar">
 
     <div class="menu-toggle" id="menu-toggle">☰</div>
-
-    <div class="nav-left">
-    <nav class="navbar">
-      <a href="index.html">
-        <img src="images/logorl.png" alt="Jobees Robotics Logo" class="logo">
+      <a href="index.html" class="logo">
+        <img src="images/logorl.png" alt="Arbor Lakes Logo">
       </a>
-    </div>
     <h2 class="site-title" style="margin: 10px; ">Arbor Lakes</h2>
 
     <ul class="nav-links" id="nav-links">
@@ -38,3 +34,5 @@ class SiteHeader extends HTMLElement {
 }
 
 customElements.define("site-header", SiteHeader);
+
+
