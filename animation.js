@@ -16,3 +16,10 @@ entries => {
 );
 
 reveals.forEach(el => observer.observe(el));
+
+
+window.addEventListener("load", () => {
+  document.querySelector(".home-section h1").classList.add("show");
+  document.querySelector(".home-section p").classList.add("show");
+});
+

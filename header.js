@@ -11,7 +11,7 @@ class SiteHeader extends HTMLElement {
     <h2 class="site-title" style="margin: 10px; ">Arbor Lakes</h2>
 
     <ul class="nav-links" id="nav-links">
-      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html">Home Page</a></li>
       <div class="menu">
   <button class="menu-btn">Events ▾</button>
 
