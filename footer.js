@@ -30,15 +30,3 @@ class SiteFooter extends HTMLElement {
 }
 
 customElements.define("site-footer", SiteFooter);
-
-
-
-
-// <div class="footer-section">
-//       <h4>Quick Links</h4>
-//       <a href="index.html">Home</a>
-//       <a href="events.html">Events</a>
-//       <a href="about.html">Who We Are</a>
-//       <a href="resource.html">Resource Hub</a>
-//       <a href="reference.html">Reference Page</a>
-//     </div>
