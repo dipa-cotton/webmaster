@@ -579,3 +579,36 @@ a:hover {
   color: #447d4e;
   font-weight: bold;
 }
+
+.project-linkyyy {
+
+  gap: 20px;
+}
+
+.project-linkyyy a {
+  font-size: 1.25rem;
+  color: rgb(74, 96, 69);
+}
+
+.project-linkyyy:hover a {
+  opacity: 1;
+  color: #55b867;
+}
+
+.card-view .projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.list-view .projects-grid {
+  display: block;
+}
+
+.list-view .project-card {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
