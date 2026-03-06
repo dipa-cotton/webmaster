@@ -16,8 +16,7 @@ class SiteFooter extends HTMLElement {
     <div class="footer-section">
     
       <h4>Contact Us</h4>
-      <p>Email: arborlakes@gmail.com</p>
-      <p>Phone: (123) 456-7890</p>
+      <p>Email: Arborlakes@pmicapstone.com</p>
       <p>© 2026 Arbor Lakes</p>
     </div>
     <a href="index.html">
