@@ -15,6 +15,7 @@
 </head>
 <body>
 <site-header></site-header>
+<main>
 <h1 style="text-align: center; margin-top: 20px;">
  Resource Hub
   </h1>
@@ -28,10 +29,13 @@
 
 <div data-fillout-id="7wiTWzzEJTus" data-fillout-embed-type="slider" data-fillout-button-text="Indicate New Resources" data-fillout-button-color="#E4AB0A" data-fillout-button-size="small" data-fillout-button-float="bottom-right" data-fillout-slider-direction="right" data-fillout-inherit-parameters data-fillout-popup-size="medium"></div><script src="https://server.fillout.com/embed/v1/"></script>
 
-<h2 style="text-align: center; margin-top: 50px;">
-    Highlights
-  </h2>
+<button id="view-toggle">Toggle View</button>
 
+<div id="resource-container">
+<div class="card-view-container">
+  <h4 style="text-align: center; margin-top: 50px; font-size: 3rem; font-weight: 900;">
+    Highlights
+  </h4>
   <div class="projects-grid">
   <div class="project-card">
     <div class="project-info">
@@ -97,9 +101,9 @@
   </div>
 </div>
 
-<h2 style="text-align: center; margin-top: 50px;">
+<h4 style="text-align: center; margin-top: 50px; font-size: 3rem; font-weight: 900;">
     All Resources:
-  </h2>
+  </h4>
 <div class="projects-grid">
   <div class="project-card">
     <div class="project-info">
@@ -1028,12 +1032,13 @@ target="_blank"
     </div>
   </div>
 </div>
+</div>
 
 <!-- links!!! OMGG YAYY -->
-
-  <h3 style="text-align: center; margin-top: 50px;">
+<div class="list-view-container">
+  <h2 style="text-align: center; margin-top: 50px;">
     Northport Community Programs
-  </h3>
+  </h2>
 <div class="project-linkyyy">
 <a href="https://www.northportfl.gov/Community-Recreation/Parks-Facilities/Community-Centers" target="_blank" rel="noopener noreferrer">
 Northport Community Centers →
@@ -1087,9 +1092,9 @@ Northport Community Service Project Starter →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Northport Recreation & Activities
-  </h3>
+  </h2>
 
 <div class="project-linkyyy">
 <a href="https://flnorthportweb.myvscloud.com/webtrac/web/search.html?module=AR&type=AQUAT" target="_blank" rel="noopener noreferrer">
@@ -1138,9 +1143,9 @@ Northport Outdoor Recreation Opportunities →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Arts, Culture, and Clubs
-  </h3>
+  </h2>
 
 
 <div class="project-linkyyy">
@@ -1173,9 +1178,9 @@ Youth Musical Arts Academy →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Youth Opportunities & Programs
-  </h3>
+  </h2>
 
 <div class="project-linkyyy">
 <a href="https://www.northportfl.gov/Community-Recreation/Programs-Activities/Youth-Scholarships" target="_blank" rel="noopener noreferrer">
@@ -1241,9 +1246,9 @@ Civil Air Patrol →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Teenager Volunteer Opportunities
-  </h3>
+  </h2>
 
 <div class="project-linkyyy">
 <a href="https://www.smh.com/Volunteers/Teen-Volunteers" target="_blank" rel="noopener noreferrer">
@@ -1270,9 +1275,9 @@ Teenager Volunteer Opportunity: Faulhaber Fab Lab →
 </div>
 
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Education & Libraries
-  </h3>
+  </h2>
 
   <div class="project-linkyyy">
 <a href="https://www.sarasotacountylibraries.org/" target="_blank" rel="noopener noreferrer">
@@ -1292,9 +1297,9 @@ Manatee Education Foundation →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Health, Safety, & Support Services
-  </h3>
+  </h2>
 
   <div class="project-linkyyy">
 <a href="https://cityofbradenton.com/safety" target="_blank" rel="noopener noreferrer">
@@ -1331,9 +1336,9 @@ Northport Emergency Sources →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Food & Community Aid
-  </h3>
+  </h2>
   <div class="project-linkyyy">
 <a href="https://mealsonwheelsplus.org/the-food-bank-of-manatee/" target="_blank" rel="noopener noreferrer">
 Local Food Banks — The Food Bank of Manatee →
@@ -1345,9 +1350,9 @@ Local Food Banks — Mayor's Feed the Hungry →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Senior Living Resources
-  </h3>
+  </h2>
 <div class="project-linkyyy">
 <a href="https://www.caring.com/senior-living/assisted-living/florida" target="_blank" rel="noopener noreferrer">
 Assisted Living in Florida →
@@ -1360,9 +1365,9 @@ Memory Care in Florida →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Osprey/Nokomis Community Resources
-  </h3>
+  </h2>
 <div class="project-linkyyy">
 <a href="https://ospreynokomisflorida.com/listing/category/non-profit-organizations-charities/" target="_blank" rel="noopener noreferrer">
 Osprey Nokomis Non Profits →
@@ -1387,9 +1392,9 @@ Osprey Nokomis Community Needs →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Bradenton Community Resources
-  </h3>
+  </h2>
 <div class="project-linkyyy">
 <a href="https://cityofbradenton.com/iwantto" target="_blank" rel="noopener noreferrer">
 Bored in Bradenton? →
@@ -1420,9 +1425,9 @@ Bradenton Employment →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Jobs & Careers
-  </h3>
+  </h2>
 <div class="project-linkyyy">
 <a href="https://www.northportfl.gov/City-Government/Careers" target="_blank" rel="noopener noreferrer">
 Northport Careers →
@@ -1434,9 +1439,9 @@ Bradenton Employment →
 </a>
 </div>
 
-<h3 style="text-align: center; margin-top: 50px;">
+<h2 style="text-align: center; margin-top: 50px;">
     Beaches
-  </h3>
+  </h2>
 
 <div class="project-linkyyy">
 <a href="https://www.sarasotacountyparks.com/parks-and-facilities/discover-a-park/type-of-park/beaches" target="_blank" rel="noopener noreferrer">
@@ -1455,11 +1460,13 @@ Charlotte County Beaches →
 Lee County Beaches →
 </a>
 </div>
-
+</div>
+</div>
+</main>
 <site-footer></site-footer>
 <script src="animation.js"></script>
 <script src="header.js"></script>
-     <script>
+<script>
   const menuToggle = document.querySelector(".menu-toggle");
   const navLinks = document.querySelector(".nav-links");
 
@@ -1468,22 +1475,127 @@ Lee County Beaches →
   });
 </script>
 <script>
-  const searchInput = document.getElementById("projectSearch");
-  const projectCards = document.querySelectorAll(".project-card");
+  const searchBar = document.getElementById("projectSearch");
+  // if (document.getElementById("resource-container").classList.contains("list-mode")) {
+  //   console.log("YES");
+  //   const links = document.querySelectorAll(".project-linkyyy");
+  //   searchBar.addEventListener("input", () => {
 
-  searchInput.addEventListener("input", function () {
-    const query = searchInput.value.toLowerCase();
+  //     const searchText = searchBar.value.toLowerCase();
+  //     links.forEach(link => {
+  //     const text = link.textContent.toLowerCase();
 
-    projectCards.forEach(function (card) {
-      const text = card.textContent.toLowerCase();
+  //     if (text.includes(searchText)) {
+  //       link.style.display = "";
+  //     } else {
+  //       link.style.display = "none";
+  //     }
+  //   });
+  // });
+  // } else {
+    // console.log("NO");
+    const grids = document.querySelectorAll(".projects-grid");
+    const links = document.querySelectorAll(".project-linkyyy");
+    const headings_links = document.querySelectorAll("h2");
+    const headings_cards = document.querySelectorAll("h4");
+    searchBar.addEventListener("input", () => {
 
-      if (text.includes(query)) {
-        card.style.display = "";
+      const searchText = searchBar.value.toLowerCase();
+      if (document.getElementById("resource-container").classList.contains("list-mode")) {
+        links.forEach(link => {
+      const text = link.textContent.toLowerCase();
+
+      if (text.includes(searchText)) {
+        link.style.display = "";
       } else {
-        card.style.display = "none";
+        link.style.display = "none";
       }
-    });
+      });
+      headings_links.forEach(heading3 => {
+
+    let nextLink = heading3.nextElementSibling;
+    let visibleLinkFound = false;
+
+    while (nextLink && nextLink.tagName !== "H2") {
+
+      if (
+        nextLink.classList.contains("project-linkyyy") &&
+        nextLink.style.display !== "none"
+      ) {
+        visibleLinkFound = true;
+        break;
+      }
+
+      nextLink = nextLink.nextElementSibling;
+    }
+
+    if (visibleLinkFound) {
+      heading3.style.display = "";
+    } else {
+      heading3.style.display = "none";
+    }
+
   });
+    } else {
+      grids.forEach(grid => {
+        const card = grid.querySelector(".project-card");
+        const text = card.textContent.toLowerCase();
+
+        if (text.includes(searchText)) {
+          grid.style.display = "";
+        } else {
+          grid.style.display = "none";
+        }
+
+      });
+    headings_cards.forEach(heading2 => {
+
+    let nextCard = heading2.nextElementSibling;
+    let visibleCardFound = false;
+
+    while (nextCard && nextCard.tagName !== "H4") {
+
+      if (
+        nextCard.classList.contains("projects-grid") &&
+        nextCard.style.display !== "none"
+      ) {
+        visibleCardFound = true;
+        break;
+      }
+
+      nextCard = nextCard.nextElementSibling;
+    }
+
+    if (visibleCardFound) {
+      heading2.style.display = "";
+    } else {
+      heading2.style.display = "none";
+    }
+
+  });
+    }
+  });
+  // }
+  // }
+
+
+  // const searchInput = document.getElementById("projectSearch");
+  // const projectCards = document.querySelectorAll(".project-card");
+
+  // searchInput.addEventListener("input", function () {
+  //   const query = searchInput.value.toLowerCase();
+
+  //   projectCards.forEach(function (card) {
+  //     const text = card.textContent.toLowerCase();
+
+  //     if (text.includes(query)) {
+  //       card.style.display = "";
+  //     } else {
+  //       card.style.display = "none";
+  //     }
+  //   });
+  // });
 </script>
+<script src="toggle.js"></script>
 <script src="footer.js"></script>
 </body>
