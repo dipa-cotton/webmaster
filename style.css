@@ -22,9 +22,10 @@ a {
 
 section {
   margin: 5vh;
-  font-family: 'Montserrat', sans-serif;
+  background-image: url('syo.jpg');
+  /* font-family: 'Montserrat', sans-serif;
   color:#3c5169;
-  background-color: #fff7e0; 
+  background-color: #fff7e0;  */
 }
 
 body {
@@ -298,6 +299,7 @@ footer {
   justify-content: center;
   text-align: justify;
   gap: 30px;
+  background-image: url('syo.jpg');
   background: linear-gradient(
   rgba(0,0,0,0.8),
   rgba(0,0,0,0.8)
@@ -480,7 +482,7 @@ h2 {
   justify-content: center;
   align-items: center;
   margin: 0px;
-  background:  url("/images/robot2.JPEG");
+  background: url("images/hero_section_img.jpg");
   background-attachment: fixed;
 }
 
