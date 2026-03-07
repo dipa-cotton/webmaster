@@ -29,7 +29,7 @@
 
 <div data-fillout-id="7wiTWzzEJTus" data-fillout-embed-type="slider" data-fillout-button-text="Indicate New Resources" data-fillout-button-color="#C4FFB5" data-fillout-button-float="bottom-right" data-fillout-slider-direction="right" data-fillout-inherit-parameters data-fillout-popup-size="medium"></div><script src="https://server.fillout.com/embed/v1/"></script>
 
-<button id="view-toggle">Toggle View</button>
+<button type="button" id="view-toggle">Toggle View</button>
 
 <div id="resource-container">
 <div class="card-view-container">
@@ -1018,7 +1018,7 @@ target="_blank"
 </div>
 </div>
 
-<!-- links!!! OMGG YAYY -->
+
 <div class="list-view-container">
   <h2 style="text-align: center; margin-top: 50px;">
     Northport Community Programs
@@ -1459,25 +1459,7 @@ Lee County Beaches →
   });
 </script>
 <script>
-  const searchBar = document.getElementById("projectSearch");
-  // if (document.getElementById("resource-container").classList.contains("list-mode")) {
-  //   console.log("YES");
-  //   const links = document.querySelectorAll(".project-linkyyy");
-  //   searchBar.addEventListener("input", () => {
-
-  //     const searchText = searchBar.value.toLowerCase();
-  //     links.forEach(link => {
-  //     const text = link.textContent.toLowerCase();
-
-  //     if (text.includes(searchText)) {
-  //       link.style.display = "";
-  //     } else {
-  //       link.style.display = "none";
-  //     }
-  //   });
-  // });
-  // } else {
-    // console.log("NO");
+    const searchBar = document.getElementById("projectSearch");
     const grids = document.querySelectorAll(".projects-grid");
     const links = document.querySelectorAll(".project-linkyyy");
     const headings_links = document.querySelectorAll("h2");
@@ -1559,26 +1541,6 @@ Lee County Beaches →
   });
     }
   });
-  // }
-  // }
-
-
-  // const searchInput = document.getElementById("projectSearch");
-  // const projectCards = document.querySelectorAll(".project-card");
-
-  // searchInput.addEventListener("input", function () {
-  //   const query = searchInput.value.toLowerCase();
-
-  //   projectCards.forEach(function (card) {
-  //     const text = card.textContent.toLowerCase();
-
-  //     if (text.includes(query)) {
-  //       card.style.display = "";
-  //     } else {
-  //       card.style.display = "none";
-  //     }
-  //   });
-  // });
 </script>
 <script src="toggle.js"></script>
 <script src="footer.js"></script>
