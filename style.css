@@ -674,3 +674,6 @@ a:hover {
   padding: 10px;
   border: 1px solid #ddd;
 }
+html {
+  scroll-behavior: smooth;
+}
