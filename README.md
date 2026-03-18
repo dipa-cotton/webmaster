@@ -9,14 +9,12 @@ We documented our work on this site through worklogs, in the reference page! We 
 This site is hosted on Github Pages: https://dipa-cotton.github.io/webmaster/index.html
 
 ## Tech Stack
-Frontend:
+### Frontend:
 
-HTML
-CSS
-JavaScript
-Backend:
+- HTML
+- CSS
+- JavaScript
 
-Node.js
 Hosting:
 GitHub Pages (frontend)
 
